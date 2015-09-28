@@ -1,0 +1,50 @@
+\documentclass{beamer}
+%\documentclass[aspectratio=169]{beamer}  % inna proporcja slajdu
+
+\usepackage[utf8]{inputenc}
+\usepackage{polski}
+
+\usetheme{pwrlite}
+%\usetheme[nosections]{pwrlite}  % wyłączenie stron z sekcjami
+%\usetheme[en]{pwrlite}  % logo w wersji angielskiej
+%\usetheme[nosections,en]{pwrlite}  % logo w wersji angielskiej i bez sekcji
+
+%\pdfmapfile{+lato.map}  % jeśli nie działa font Lato (a jest zainstalowany), odkomentuj przy pierwszej kompilacji
+
+\title{Tytuł prezentacji}
+\institute{Wydział \ldots\ Politechniki Wrocławskiej}
+\author{Autor Prezentacji}
+\date{data}
+
+\begin{document}
+
+\begin{frame}
+\frametitle{Plan prezentacji}
+\begin{itemize}
+\item Pierwszy rozdział
+\item Drugi rozdział\pause
+\begin{itemize}
+\item Pierwszy podrozdział
+\item Drugi podrozdział
+\end{itemize}
+\end{itemize}
+\end{frame}
+
+\section{Pierwszy rozdział}
+
+\begin{frame}
+\frametitle{Wypunktowanie}
+\begin{enumerate}
+\item raz
+\item dwa
+\item trzy
+\end{enumerate}
+\end{frame}
+
+\begin{frame}
+\frametitle{Wzór}
+$$\int_0^\infty \sin(x)\operatorname{d\!}{}x$$
+\end{frame}
+
+\end{document}
+
